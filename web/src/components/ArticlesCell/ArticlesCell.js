@@ -22,7 +22,7 @@ export const Failure = ({ error }) => (
 export const Success = ({ articles }) => {
   return (
     <>
-      {articles.map((article) => <Article key={article.id} article={article}/>
+      {articles.map((article) => <Article key={article.id} article={article} summary={true}/>
     )}
     </>
   )
